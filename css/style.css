@@ -1,0 +1,177 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+/* nawigacja */
+.nav {
+	height: 50px;
+	background-color: #333;
+	text-align: center;
+	line-height: 50px;
+}
+
+.nav-item {
+	display: inline-block;
+}
+
+.nav-item a {
+	padding: 0 50px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	top: 25px;
+	transition: color 0.3s;
+}
+
+.nav-item a:hover {
+	color: royalblue;
+}
+
+/* header */
+
+.header-img {
+	position: relative;
+	height: 300px;
+	background-image: url('../img/castle-5116436_1920.jpg');
+	background-size: cover;
+	background-position: 0 50%;
+}
+
+.header-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	z-index: 5;
+}
+
+.header-bg {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(2, 2, 27, 0.39);
+}
+
+h1 {
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+/* main */
+main {
+	width: 1200px;
+	margin: 50px auto;
+}
+main h2 {
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.about-us-box {
+	position: relative;
+	margin: 40px 0;
+	height: 300px;
+	background-attachment: fixed;
+	background-position: center;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+.top {
+	background-image: url('../img/padlock-428549_1920.jpg');
+}
+.middle {
+	background-image: url('../img/garden-2040714_1920.jpg');
+}
+.bottom {
+	background-image: url('../img/castle-5511046_1920.jpg');
+}
+.about-us-text {
+    position: absolute;
+    bottom: 20px;
+	padding: 20px 40px;
+    text-align: center;
+    color: white;
+}
+
+.about-us-text h3 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.about-us-bg {
+    position: absolute;
+    bottom: 0;
+    height: 45%;
+    width: 100%;
+    background-color: rgba(68, 62, 62, 0.658);
+}
+
+/* footer */
+footer {
+	height: 80px;
+	line-height: 80px;
+	background-color: #333;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+.icon-box a {
+	color: white;
+	font-size: 30px;
+	margin: 0 5px;
+	transition: color 0.3s;
+}
+.icon-box a:hover {
+	color: royalblue;
+}
+
+.prices-table {
+    
+    margin: 0 auto; /* wysrodkowanie */
+    color: black;
+    border: 3px solid black;
+    font-size: 30px;
+
+    
+}
+.prices-table td {
+    padding: 10px 30px;
+}
+
+
+
+.fa-phone {
+    font-size: 30px;
+margin-right: 10px;
+}
+
+.fa-mailchimp{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+
+
+.service-list {
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.contact-info{
+    text-align: center;
+    margin-right: 10px;
+    font-size: 30px;
+}
